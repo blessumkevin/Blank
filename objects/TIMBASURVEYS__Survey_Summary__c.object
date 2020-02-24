@@ -333,7 +333,13 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Survey Summaries</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Test_Managed_Package_Val_Rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>TIMBASURVEYS__RecipientEmail__c = &quot;help@help.com&quot;</errorConditionFormula>
+        <errorMessage>Can&apos;t do that</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
