@@ -322,11 +322,18 @@
     </fields>
     <fields>
         <fullName>Test__c</fullName>
-        <defaultValue>false</defaultValue>
+        <defaultValue>0</defaultValue>
+        <description>Adding
+
+9/8/2020</description>
         <externalId>false</externalId>
         <label>Test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
